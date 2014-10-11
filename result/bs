@@ -1,0 +1,10 @@
+\		'ps:bs': "bool binarySearch(int key,int *a,int n) {\n"
+\			."\tint le = 0,ri = n-1;\n"
+\			."\twhile ( le <= ri ) {\n"
+\			."\t\tint mid = (le+ri)>>1;\n"
+\			."\t\tif ( a[mid] == key ) return true;\n"
+\			."\t\telse if ( a[mid] > key ) ri = mid-1;\n"
+\			."\t\telse le = mid+1;\n"
+\			."\t}\n"
+\			."\treturn false;\n"
+\			."}\n",

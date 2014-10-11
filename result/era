@@ -1,0 +1,9 @@
+\		'ps:era': "bool b[11111111];\n"
+\			."void era() {\n"
+\			."\tfill(b,b+1111111,true);\n"
+\			."\tb[0] = b[1] = false;\n"
+\			."\tfor ( long long  i = 2 ; i < 1111111 ; i++ ) \n"
+\			."\t\tif ( b[i] ) \n"
+\			."\t\t\tfor ( long long  j = i*i ; j < 1111111 ; j+=i ) \n"
+\			."\t\t\t\tb[j] = false;\n"
+\			."}\n",
